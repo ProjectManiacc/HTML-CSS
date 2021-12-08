@@ -1,11 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+* {
+  /* border-top: 10px solid #444; */
+}
+
+body {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -115,4 +114,23 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+/* Resolving Conflicts */
+
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
+
+nav {
+  font-size: 18px;
 }
